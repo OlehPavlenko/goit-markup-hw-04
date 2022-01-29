@@ -33,10 +33,15 @@
         </nav>
         <ul class="list-header auth-nav">
             <li class="item">
-                <a href="" class="header-addres">info@devstudio.com</a>
+                <a class="header-addres" href="mailto:info@devstudio.com">
+                    <svg class="header-addres-icon" width="16" height="16">
+                        <use href="images/symbol-defs.svg#icon-envelope"></use>
+                    </svg>info@devstudio.com</a>
             </li>
             <li class="item">
-                <a href="" class="header-addres">+38 096 111 11 11</a>
+                <a class="header-addres" href=""><svg class="header-addres-icon" width="10" height="16">
+                        <use href="images/symbol-defs.svg#icon-smartphone"></use>
+                    </svg>+38 096 111 11 11</a>
             </li>
         </ul>
     </div>
@@ -54,7 +59,7 @@
         </ul>
         <ul class="list-btn portfolio-element">
             <li class="element">
-                <a href="">
+                <a href="" class="portfolio-link">
                 <img class="image" src="./images/project-1.jpg" alt="Изображение сайта" width="370">
                 <div class="context">
                 <h2 class="item-project">Технокряк</h2>
@@ -63,7 +68,7 @@
                 </a>
             </li>
             <li class="element">
-                <a href="">
+                <a href="" class="portfolio-link">
                 <img class="image" src="./images/project-2.jpg" alt="Дизайн постера" width="370">
                 <div class="context">
                 <h2 class="item-project">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
@@ -72,7 +77,7 @@
                 </a>
             </li>
             <li class="element">
-                <a href="">
+                <a href="" class="portfolio-link">
                 <img class="image" src="./images/project-3.jpg" alt="Логотип ресторана" width="370">
                 <div class="context">
                 <h2 class="item-project">Ресторан <span lang="en">Seafood</span></h2>
@@ -81,7 +86,7 @@
                 </a>
             </li>
             <li class="element">
-                <a href="">
+                <a href="" class="portfolio-link">
                 <img class="image" src="./images/project-4.jpg" alt="Наушники" width="370">
                 <div class="context">
                 <h2 class="item-project">Проект <span lang="en">Prime</span></h2>
@@ -90,7 +95,7 @@
                 </a>
             </li>
             <li class="element">
-                <a href="">
+                <a href="" class="portfolio-link">
                 <img class="image" src="./images/project-5.jpg" alt="Картонные коробки" width="370">
                 <div class="context">
                 <h2 class="item-project">Проект <span lang="en">Boxes</span></h2>
@@ -99,15 +104,16 @@
                 </a>
             </li>
             <li class="element">
-                <a href="">
+                <a href="" class="portfolio-link">
                 <img class="image" src="./images/project-6.jpg" alt="Персональный компютер" width="370">
                 <div class="context">
                 <h2 class="item-project"> <span lang="en">Inspiration has no Borders</span></h2>
                 <p class="item-project-text">Веб-сайт</p>
+                </div>
                 </a>
             </li>
             <li class="element">
-                <a href="">
+                <a href="" class="portfolio-link">
                 <img class="image" src="./images/project-7.jpg" alt="Книга" width="370">
                 <div class="context">
                 <h2 class="item-project">Издание <span lang="en">Limited Edition</span></h2>
@@ -116,7 +122,7 @@
                 </a>
             </li>
             <li class="element">
-                <a href="">
+                <a href="" class="portfolio-link">
                 <img class="image" src="./images/project-8.jpg" alt="Название проекта" width="370">
                 <div class="context">
                 <h2 class="item-project">Проект <span lang="en">Lab</span></h2>
@@ -125,7 +131,7 @@
                 </a>
             </li>
             <li class="element">
-                <a href="">
+                <a href="" class="portfolio-link">
                 <img class="image" src="./images/project-9.jpg" alt="Ноутбук" width="370">
                 <div class="context">
                 <h2 class="item-project"><span lang="en">Growing Business</span></h2>
@@ -139,17 +145,52 @@
         </div>
     </main>
 <footer class="footer">
-    <div class="container">
-    <a href="" class="logo-footer">Web<span class="logo-footer-inner">Studio</span></a>
-    <address class="footer-addres">г. Киев, пр-т Леси Украинки, 26</address>
-    <ul class="list-footer">
-        <li>
-            <a href="" class="footer-addres-contact">info@devstudio.com</a>
-        </li>
-        <li>
-            <a href="" class="footer-addres-contact">+38 096 111 11 11</a>
-        </li>
-    </ul>
+    <div class="container footer-container">
+        <div>
+            <a class="logo-footer" href="">Web<span class="logo-footer-inner">Studio</span></a>
+            <address class="footer-addres">г. Киев, пр-т Леси Украинки, 26</address>
+            <ul class="list-footer">
+                <li class="item-footer">
+                    <a href="" class="footer-addres-contact">info@devstudio.com</a>
+                </li>
+                <li class="item-footer">
+                    <a href="" class="footer-addres-contact">+38 096 111 11 11</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-join">
+            <p class="join-text">присоединяйтесь</p>
+            <ul class="footer-list-join">
+                <li class="join-item">
+                    <a href="" class="item-link">
+                        <svg class="footer-icon" width="20" height="20">
+                            <use href="images/symbol-defs.svg#icon-instagram-2"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="join-item">
+                    <a href="" class="item-link">
+                        <svg class="footer-icon" width="20" height="20">
+                            <use href="images/symbol-defs.svg#icon-twitter-1"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="join-item">
+                    <a href="" class="item-link">
+                        <svg class="footer-icon" width="20" height="20">
+                            <use href="images/symbol-defs.svg#icon-facebook-1"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="join-item">
+                    <a href="" class="item-link">
+                        <svg class="footer-icon" width="20" height="20">
+                            <use href="images/symbol-defs.svg#icon-linkedin-1"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
 </footer>
 </body>
