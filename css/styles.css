@@ -323,7 +323,6 @@ background-color: var(--accent-text-color);
 .list-clients {
   list-style: none;
   display: flex;
-  padding-bottom: 96px;
 }
 .clients-item {
   display: inline-flex;
